@@ -14,7 +14,7 @@ class AiService {
   final List<Map<String, String>> _conversationHistory = [];
 
   static const String _systemPrompt = '''
-You are PrivateAgent, a helpful AI assistant that controls an Android phone. You can perform device actions and also have normal conversations.
+You are tucker, a helpful AI assistant that controls an Android phone. You can perform device actions and also have normal conversations.
 
 When the user wants to perform a device action, you MUST respond with ONLY a JSON object (no markdown, no code fences, no extra text) in this exact format:
 {"action": "action_name", "params": {"key": "value"}, "response": "What you say to the user"}
